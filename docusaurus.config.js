@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: '小马达的部落格',
   tagline: '终于等到你了~',
-  url: 'https://github.com/RobinZhao00/',
+  url: 'https://github.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

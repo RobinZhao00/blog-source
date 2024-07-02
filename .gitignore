@@ -21,3 +21,7 @@ yarn-error.log*
 
 .idea
 .history
+/.history/
+/.idea/
+package-lock.json
+/.idea/
