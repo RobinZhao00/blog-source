@@ -6,6 +6,7 @@ const config: Config = {
     title: '小马达的部落格',
     tagline: '终于等到你了~',
     favicon: 'img/favicon.ico',
+    trailingSlash: false,
 
     // Set the production url of your site here
     url: 'https://github.com',
@@ -128,6 +129,10 @@ const config: Config = {
             darkTheme: prismThemes.dracula,
         },
     } satisfies Preset.ThemeConfig,
+    customFields: {
+        USE_SSH: false,
+        useSSH: false
+    }
 };
 
 export default config;
